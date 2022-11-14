@@ -1,0 +1,44 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+
+        //Q1
+        String name = "leen alobaidi" ;
+        System.out.println(name);
+
+        //Q2
+        int age = 19 ;
+        System.out.println(age);
+
+        //Q3
+        int num1 = 2 ;
+        int num2 = 6 ;
+        int sum = num1 + num2 ;
+        System.out.println(sum);
+        int div = sum / 2 ;
+        System.out.println(div);
+
+        //Q4
+        int len = 5 ; //length
+        int wid = 7 ; //width
+        int area = len * wid ;
+        int perimeter = 2 * ( len + wid ) ;
+        System.out.println("Area of rectangle= " + area);
+        System.out.println("Perimeter of rectangle= " + perimeter);
+
+        //Q5
+        int x = 23 ;
+        int y = 45 ;
+        boolean z = x == y;
+        System.out.println(z);
+
+        //Q6
+        int a = 55 ;
+        int b = 70 ;
+        System.out.println((a<50) && (a<b));
+
+        //Q7
+        System.out.println((a<50) || (a<b));
+
+    }
+}
